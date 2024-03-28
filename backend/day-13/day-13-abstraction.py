@@ -7,6 +7,9 @@ class Calculator:
         return _sum
 
 numlist = [5, 10, 15, 20, 25]
+
+# This is the instance for a Calculator class.
 new_calculator = Calculator()
+
 sum = new_calculator.sum(numlist)
 print(sum)

@@ -10,6 +10,7 @@ class BasicCalculator:
 class ComplexCalculator(BasicCalculator):
     pass
 
+# These are two instances for classes: Basic & ComplexCalculator.
 basic = BasicCalculator()
 complex = ComplexCalculator()
 
